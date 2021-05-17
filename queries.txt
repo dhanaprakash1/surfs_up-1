@@ -1,0 +1,43 @@
+drop table matches;
+
+create table matches (
+   loser_age float not null,
+   loser_id INT NOT NULL,	
+   loser_name character(100) not null,
+   loser_rank INT not null,
+   winner_age float not null,
+   winner_id int not null,
+   winner_name character(100) not null,
+   winner_rank int not null	
+ 
+
+);
+
+
+select count(*)
+from public.matches
+where winner_name = 'Serena Williams'
+
+create table players (
+   player_id int null,
+   first_name character(100) not NULL,	
+   last_name character(100) not null,
+   hand character(1) not null,
+   country_code character(3) not null 
+ 
+
+);
+
+select hand,count(player_id)
+from public.players
+group by hand		 
+limit 100
+
+
+
+
+
+select hand, count(winner_id)
+from players inner join matches
+on players.player_id = matches.winner_id
+group by hand;
