@@ -13,7 +13,7 @@ year-around or not whih Avy wants to build.
     - The minimum temprature remains around 64 degree and maximum temprature remains around 85 degree at Ohau during June.
     - Standard deviation of Ohau remprature is around 3.25 during June.
 
-https://github.com/asitkumar26/surfs_up/blob/main/June-Temp-Stats.png
+https://github.com/dhanaprakash1/surfs_up/blob/main/June-Temp-Stats.png
 
 
 
@@ -22,7 +22,7 @@ https://github.com/asitkumar26/surfs_up/blob/main/June-Temp-Stats.png
     - The minimum temprature remains around 56 degree~ and maximum temprature remains around 83 degree~ during December.
     - Standard deviation of Ohau remprature is around 3.74 during December.
     
-    https://github.com/asitkumar26/surfs_up/blob/main/Dec-Temp-Stats.png
+    https://github.com/dhanaprakash1/surfs_up/blob/main/Dec-Temp-Stats.png
 
 
 
